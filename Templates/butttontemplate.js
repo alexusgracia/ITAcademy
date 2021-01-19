@@ -1,0 +1,3 @@
+function printinfo(){
+    alert("Helloooo")
+}
