@@ -4,10 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Exercici</title>
+    <title>Calculadora</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
 </head>
 <body>
+    <div class="container">
+        <!-- APPLICATION -->
+        <div id="App" class="row pt-3">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Calculadora</h4>
+                    </div>
+                    <form id="form" class="card-body">
+                        <div class="form-group">
+                            <input type="number" step="0.01" id="valor1" placeholder="Valor 1" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="number" step="0.01" id="valor2" placeholder="Valor 2" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="operacio">Selecciona operació:</label>
+                                <select class="form-control" id="operacio">
+                                  <option>suma</option>
+                                  <option>resta</option>
+                                  <option>multiplicacio</option>
+                                  <option>divisio</option>
+                                </select>
+                        </div>
+                        <input type="submit" value="Calcula" class="btn btn-primary btn-block" >
+                    </form>
+                </div>
+            </div>
+            <div id="calculs-realitzats" class="col-md-8"> </div>
+        </div>
+    </div>
     <script src="jsexercici3.1.js"></script>
 </body>
 </html>
