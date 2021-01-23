@@ -2,8 +2,9 @@
 
 ## nodeJS Project
 
-#### Ejercicios
-+ [Sprint1](sprint1/1.javascript_basic)
+### Exercicis
+##### Sprint1
++ [Javascript Bàsic](sprint1/1.javascript_basic)
 
 #### Plantillas
 
