@@ -5,6 +5,7 @@ let miPrimeraPromise = new Promise((resolve, reject) => {
     setTimeout(function(){
         resolve("¡Éxito!"); // ¡Tod0 salió bien!
     }, 250);
+    console.log(reject)
 });
 
 miPrimeraPromise.then((successMessage) => {
