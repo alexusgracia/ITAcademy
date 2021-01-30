@@ -7,6 +7,13 @@
 + [Javascript bàsic](sprint1/1.javascript_basic)
 + [Lletres repetides](sprint1/2.lletres_repetides)
 + [Funcions & template literals](sprint1/3.funcions_&_template_literals)
++ [Classes & arrow functions](sprint1/4.classes&arrow_functions)
+
+
+##### Ejercicios pendientes
+- [ ] 3.1 Functions and template literals
+- [ ] 3.1 Classes and arrow functions
+
 
 #### Plantillas
 
