@@ -20,5 +20,7 @@
 + [Template](templates/template.js)
 + [Template button](templates/butttontemplate.js)
 + [Objectes template](templates/objectes.js)
++ [Promises template](templates/promise.js)
++ [Promises&async template](templates/promises&async.js)
 
 
