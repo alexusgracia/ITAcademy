@@ -8,11 +8,19 @@
 + [Lletres repetides](sprint1/2.lletres_repetides)
 + [Funcions & template literals](sprint1/3.funcions_&_template_literals)
 + [Classes & arrow functions](sprint1/4.classes&arrow_functions)
++ [Promises & callbacks](sprint1/5.promises&callbacks)
 
 
 ##### Ejercicios pendientes
-- [ ] 3.1 Functions and template literals
+Functions and template literals
+- [ ] 3.1
 
+Promises and callbacks
+- [ ] 1.2
+- [ ] 2.1
+- [ ] 2.2
+- [ ] 2.3
+- [ ] 3.1
 
 #### Plantillas
 
