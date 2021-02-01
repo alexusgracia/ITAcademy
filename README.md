@@ -17,7 +17,6 @@ Functions and template literals
 
 Promises and callbacks
 - [ ] 1.2
-- [ ] 3.1
 
 #### Plantillas
 
