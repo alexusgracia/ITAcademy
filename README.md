@@ -12,7 +12,6 @@
 
 ##### Ejercicios pendientes
 - [ ] 3.1 Functions and template literals
-- [ ] 3.1 Classes and arrow functions
 
 
 #### Plantillas
