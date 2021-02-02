@@ -9,6 +9,7 @@
 + [Funcions & template literals](sprint1/3.funcions_&_template_literals)
 + [Classes & arrow functions](sprint1/4.classes&arrow_functions)
 + [Promises & callbacks](sprint1/5.promises&callbacks)
++ [Async&await](sprint1/6.async&await)
 
 
 ##### Ejercicios pendientes
@@ -18,7 +19,7 @@ Functions and template literals
 Promises and callbacks
 - [ ] 1.2
 
-#### Plantillas
+#### Templates
 
 + [Template](templates/template.js)
 + [Template button](templates/butttontemplate.js)
