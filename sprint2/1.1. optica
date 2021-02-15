@@ -1,0 +1,45 @@
+
+DROP TABLE IF EXISTS ulleres;
+DROP TABLE IF EXISTS muntura;
+DROP TABLE IF EXISTS proveidors;
+
+CREATE TABLE proveidors(
+    nom VARCHAR(64) NOT NULL,
+    direccio VARCHAR(64) NOT NULL,
+    telefon INT NOT NULL,
+    fax INT NOT NULL,
+    nif VARCHAR(16) NOT NULL,
+    PRIMARY KEY (nom)
+    );
+INSERT INTO proveidors(nom, direccio, telefon, fax, nif) VALUES('FabricantA', 'Carrer A 12 BAIXOS-1 Barcelona 08008 ES', '934176000', '934176001', 'A80907390');
+INSERT INTO proveidors(nom, direccio, telefon, fax, nif) VALUES('FabricantB', 'Carrer B 12 BAIXOS-2 Barcelona 08008 ES', '934176010', '934176011', 'A80907391');
+INSERT INTO proveidors(nom, direccio, telefon, fax, nif) VALUES('FabricantC', 'Carrer C 12 BAIXOS-3 Barcelona 08008 ES', '934176020', '934176021', 'A80907392');
+INSERT INTO proveidors(nom, direccio, telefon, fax, nif) VALUES('FabricantD', 'Carrer D 12 BAIXOS-4 Barcelona 08008 ES', '934176030', '934176022', 'A80907393');
+
+
+CREATE TABLE muntura(
+    tipus VARCHAR(32) NOT NULL,
+    PRIMARY KEY (tipus)
+    );
+INSERT INTO muntura VALUES('flotant');
+INSERT INTO muntura VALUES('pasta');
+INSERT INTO muntura VALUES('metàl·lica');
+
+
+CREATE TABLE ulleres(
+	id INT NOT NULL AUTO_INCREMENT,
+    marca VARCHAR(64) NOT NULL,
+    proveidor VARCHAR(64) NOT NULL,
+    graduacioDreta FLOAT(2) NOT NULL,
+    graduacioEsquerra FLOAT(2) NOT NULL,
+    tipusMuntura VARCHAR(32) NOT NULL,
+    colorMuntura VARCHAR(32) NOT NULL,
+    colorVidreDret VARCHAR(32) NOT NULL,
+    colorVidreEsquerra VARCHAR(32) NOT NULL,
+    preu FLOAT(2) NOT NULL,
+    PRIMARY KEY(id),
+    FOREIGN KEY (proveidor) REFERENCES proveidors(nom),
+	FOREIGN KEY (tipusMuntura) REFERENCES muntura(tipus)
+	);
+    
+/*No completat*/
