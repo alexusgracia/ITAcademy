@@ -12,11 +12,11 @@
 + [Async&await](sprint1/6.async&await)
 
 
-##### Ejercicios pendientes
-Functions and template literals
+##### Exercicis pendents
+3. Functions and template literals
 - [ ] 3.1
 
-Promises and callbacks
+5. Promises and callbacks
 - [ ] 1.2
 
 #### Templates
