@@ -12,7 +12,7 @@
 + [Async&await](sprint1/6.async&await)
 
 ##### Sprint2
-+ [Estructura de dades - MySQL](sprint2/exercici1-optica.sql)
++ [Estructura de dades - MySQL](sprint2/1.estructura_de_dades)
 
 ##### Exercicis pendents
 3. Functions and template literals
