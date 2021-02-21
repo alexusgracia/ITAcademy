@@ -11,6 +11,8 @@
 + [Promises & callbacks](sprint1/5.promises&callbacks)
 + [Async&await](sprint1/6.async&await)
 
+##### Sprint2
++ [Estructura de dades - MySQL](sprint2/exercici1-optica)
 
 ##### Exercicis pendents
 3. Functions and template literals
@@ -26,5 +28,6 @@
 + [Objectes template](templates/objectes.js)
 + [Promises template](templates/promise.js)
 + [Promises&async template](templates/promises&async.js)
++ [Mysql template](sprint2/comandos)
 
 
