@@ -13,6 +13,8 @@
 
 ##### Sprint2
 + [Estructura de dades - MySQL](sprint2/1.estructura_de_dades)
++ [MySql_Queries](sprint2/2.MySQL_Queries)
+
 
 ##### Exercicis pendents
 3. Functions and template literals
