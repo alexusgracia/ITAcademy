@@ -2,8 +2,8 @@
 
 ## nodeJS Project
 
-### Exercicis
-##### Sprint1
+## Exercicis
+#### Sprint1
 + [Javascript bàsic](sprint1/1.javascript_basic)
 + [Lletres repetides](sprint1/2.lletres_repetides)
 + [Funcions & template literals](sprint1/3.funcions_&_template_literals)
@@ -11,17 +11,23 @@
 + [Promises & callbacks](sprint1/5.promises&callbacks)
 + [Async&await](sprint1/6.async&await)
 
-##### Sprint2
+#### Sprint2
 + [Estructura de dades - MySQL](sprint2/1.estructura_de_dades)
 + [MySql_Queries](sprint2/2.MySQL_Queries)
 
 
-##### Exercicis pendents
+#### Exercicis pendents
+######  SPRINT 1
 3. Functions and template literals
 - [ ] 3.1
-
 5. Promises and callbacks
 - [ ] 1.2
+######  SPRINT 2
+1. Estructura de dades
+- [ ] Youtube
+- [ ] Spotify
+2. MySql Queries
+- [ ] Universidad
 
 #### Templates
 
